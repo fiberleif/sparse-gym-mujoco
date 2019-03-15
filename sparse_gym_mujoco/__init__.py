@@ -9,34 +9,34 @@ register(
 )
 
 register(
-    id='Hopper-v1',
+    id='SparseHopper-v1',
     entry_point='sparse_gym_mujoco.envs.sparse_hopper:SparseHopperEnv',
     max_episode_steps=1000,
     reward_threshold=3800.0,
 )
 
 register(
-    id='Swimmer-v1',
+    id='SparseSwimmer-v1',
     entry_point='sparse_gym_mujoco.envs.sparse_swimmer:SparseSwimmerEnv',
     max_episode_steps=1000,
     reward_threshold=360.0,
 )
 
 register(
-    id='Walker2d-v1',
+    id='SparseWalker2d-v1',
     max_episode_steps=1000,
     entry_point='sparse_gym_mujoco.envs.sparse_walker2d:SparseWalker2dEnv',
 )
 
 register(
-    id='Ant-v1',
+    id='SparseAnt-v1',
     entry_point='sparse_gym_mujoco.envs.sparse_ant:SparseAntEnv',
     max_episode_steps=1000,
     reward_threshold=6000.0,
 )
 
 register(
-    id='Humanoid-v1',
+    id='SparseHumanoid-v1',
     entry_point='sparse_gym_mujoco.envs.sparse_humanoid:SparseHumanoidEnv',
     max_episode_steps=1000,
 )
