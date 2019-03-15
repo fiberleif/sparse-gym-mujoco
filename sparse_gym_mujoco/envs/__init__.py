@@ -1,0 +1,8 @@
+from sparse_gym_mujoco.envs.mujoco_env import MujocoEnv
+# from gym.envs.mujoco.mujoco_env import MujocoEnv
+from sparse_gym_mujoco.envs.sparsemountaincar import SparseHopperEnv
+from sparse_gym_mujoco.envs.sparsehalf_cheetah import SparseHalfCheetahEnv
+from sparse_gym_mujoco.envs.sparsehalf_cheetah import SparseWalker2dEnv
+from sparse_gym_mujoco.envs.sparsehalf_cheetah import SparseSwimmerEnv
+from sparse_gym_mujoco.envs.sparsehalf_cheetah import SparseAntEnv
+from sparse_gym_mujoco.envs.sparsehalf_cheetah import SparseHumanoidEnv
